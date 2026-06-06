@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Knowledge Graph for Digital Humanities"
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Fabian
+    family-names: Lochner
+    orcid: https://orcid.org/0009-0006-3157-5335
+    email: fabian.lochner@uni-oldenburg.de
+    affiliation: Carl von Ossietzky Universität Oldenburg
+repository-code: 'https://github.com/FabiLochner/kg-digital-humanities'
+license: MIT

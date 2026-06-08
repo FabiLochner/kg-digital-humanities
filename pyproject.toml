@@ -1,11 +1,20 @@
 [project]
-name = "kg-digital-humanities"
+name = "kg-dh"
 version = "0.1.0"
 description = "Knowledge Graph for Digital Humanities"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pandas>=3.0.3",
+    "polars>=1.41.2",
+    "sparqlwrapper>=2.0.0",
+]
 
 [build-system]
 requires = ["uv_build>=0.11.19,<0.12"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]

@@ -34,7 +34,7 @@ from kg_dh.queries import AUTHOR_QUERIES
 
 
 
-### 1) retry helper 
+### 1) general helper functions 
 
 def parse_retry_after(header_val: str | None, default: float = 60.0) -> float:
     """Parse Retry-After header — handles both integer seconds and HTTP-date. Wikidata has 60 seconds query runtime limit.
@@ -50,6 +50,25 @@ def parse_retry_after(header_val: str | None, default: float = 60.0) -> float:
         return max(0.0, (dt - datetime.datetime.now(datetime.timezone.utc)).total_seconds())
     except Exception:
         return default
+    
+
+def clean_date(raw: str | None) -> str | None:
+    """
+    Convert Wikidata time string to clean date format.
+    '+1932-12-04T00:00:00Z' → '1932-12-04'
+    '+1790-00-00T00:00:00Z' → '1790' (year only, month/day unknown)
+    '+1966-00-00T00:00:00Z' → '1966'
+    """
+    if not raw:
+        return None
+    # strip leading + and drop time component
+    date_part = raw.lstrip("+").split("T")[0]  # e.g. '1932-12-04'
+    year, month, day = date_part.split("-")
+    if month == "00":
+        return year                        # only year is known
+    if day == "00":
+        return f"{year}-{month}"           # only year and month known
+    return date_part                       # full date known
 
 
 ### 2) SPARQL helpers (used in Phase 1)
@@ -159,7 +178,7 @@ def extract_time_from_claims(claims: dict, prop_id: str) -> str | None:
             and claim["mainsnak"]["datavalue"]["type"] == "time"  # confirm it's a time value
         ):
             # return the raw time string from the nested value dict
-            return claim["mainsnak"]["datavalue"]["value"]["time"]
+            return clean_date(claim["mainsnak"]["datavalue"]["value"]["time"])
     return None
 
 

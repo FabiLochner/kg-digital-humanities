@@ -1,0 +1,4601 @@
+[
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1000002",
+    "authorLabel":"Claus Hammel",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q214917",
+      "Q1930187",
+      "Q36180",
+      "Q28389",
+      "Q17337766"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1932-12-04",
+    "place_birth":[
+      "Q559010"
+    ],
+    "date_death":"1990-04-12",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q1351858",
+      "Q12662961",
+      "Q449353",
+      "Q1605666"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1000087",
+    "authorLabel":"Horst Baier",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q2306091",
+      "Q1622272",
+      "Q36180",
+      "Q39631",
+      "Q49757"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1933-03-26",
+    "place_birth":[
+      "Q14960"
+    ],
+    "date_death":"2017-12-02",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q23785357"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1000180",
+    "authorLabel":"Thilo Koch",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q114347127",
+      "Q15980158",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1920-09-20",
+    "place_birth":[
+      "Q2814"
+    ],
+    "date_death":"2006-09-12",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q445673",
+      "Q10905334"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100029",
+    "authorLabel":"Otto Hermann von Vietinghoff",
+    "citizenship":[
+      "Q183",
+      "Q34266"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q82955",
+      "Q47064",
+      "Q104680",
+      "Q1501800",
+      "Q1776724"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1722-12-03",
+    "place_birth":[
+      "Q1773"
+    ],
+    "date_death":"1792-06-24",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100031",
+    "authorLabel":"Kaspar von Stieler",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q36180",
+      "Q49757",
+      "Q14467526",
+      "Q14972848",
+      "Q20826540",
+      "Q214917",
+      "Q33999",
+      "Q37226",
+      "Q80687"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1632-08-02",
+    "place_birth":[
+      "Q1729"
+    ],
+    "date_death":"1707-06-24",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q559186"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100035",
+    "authorLabel":"Franz von Gaudy",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q49757",
+      "Q333634",
+      "Q6625963",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1800-01-01",
+    "place_birth":[
+      "Q4024"
+    ],
+    "date_death":"1840-01-01",
+    "educated_at":[
+      "Q318186"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1000687",
+    "authorLabel":"Karl Otto Henseling",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q593644",
+      "Q36180",
+      "Q15980158"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1945-06-26",
+    "place_birth":[
+      "Q64"
+    ],
+    "date_death":"2011-01-28",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100073",
+    "authorLabel":"Leberecht Migge",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q2815948",
+      "Q36180",
+      "Q15432439",
+      "Q482980"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1881-03-20",
+    "place_birth":[
+      "Q1792"
+    ],
+    "date_death":"1935-05-30",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q160438"
+    ],
+    "influenced_by":[
+      "Q85834"
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1000916",
+    "authorLabel":"Albert K\u00e1roly Festetics",
+    "citizenship":[
+      "Q28"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q49757",
+      "Q1930187",
+      "Q9363889"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1790",
+    "place_birth":[
+
+    ],
+    "date_death":"1880",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100136",
+    "authorLabel":"Otto B\u00f6ckel",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q82955",
+      "Q1371378",
+      "Q182436",
+      "Q486839",
+      "Q6051619"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1859-07-02",
+    "place_birth":[
+      "Q1794"
+    ],
+    "date_death":"1923-01-01",
+    "educated_at":[
+      "Q155354"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q26836255"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100142",
+    "authorLabel":"Fritz K\u00f6ster",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q36180",
+      "Q24293741",
+      "Q12359071",
+      "Q15627169"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1855-02-02",
+    "place_birth":[
+      "Q565492"
+    ],
+    "date_death":"1934-01-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100154369",
+    "authorLabel":"Geseko von L\u00fcpke",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q1238570",
+      "Q15980158",
+      "Q1930187",
+      "Q876864"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1958-06-07",
+    "place_birth":[
+      "Q16003"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100178",
+    "authorLabel":"Heinrich Lilienfein",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q1792450"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1879-11-20",
+    "place_birth":[
+      "Q1022"
+    ],
+    "date_death":"1952-12-20",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q309",
+      "Q5891",
+      "Q181287"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q1396769"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100203",
+    "authorLabel":"Valentin Thilo",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q49757",
+      "Q13424456",
+      "Q115783625",
+      "Q955464"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1579-01-02",
+    "place_birth":[
+      "Q991636"
+    ],
+    "date_death":"1620-01-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100204",
+    "authorLabel":"Maximilian Du Prel",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q36180",
+      "Q201788"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1904-05-07",
+    "place_birth":[
+      "Q1726"
+    ],
+    "date_death":"1945-07-04",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q44687",
+      "Q469210",
+      "Q348150"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100207",
+    "authorLabel":"Marie Luise Droop",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q28389",
+      "Q3282637",
+      "Q2526255",
+      "Q69423232",
+      "Q333634",
+      "Q3455803",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1890-01-15",
+    "place_birth":[
+      "Q393"
+    ],
+    "date_death":"1959-08-22",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100223",
+    "authorLabel":"Mojo Mendiola",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q36180",
+      "Q1028181"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1954-01-12",
+    "place_birth":[
+      "Q14929"
+    ],
+    "date_death":"2017-10-20",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100225",
+    "authorLabel":"Angie Westhoff",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q4853732"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1966",
+    "place_birth":[
+      "Q1726"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q55044"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100230401",
+    "authorLabel":"Nikolaus Gatter",
+    "citizenship":[
+
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q6051619",
+      "Q20669622",
+      "Q333634",
+      "Q36180",
+      "Q753110",
+      "Q17167049",
+      "Q6430706"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1955-01-01",
+    "place_birth":[
+      "Q365"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q152171"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100232",
+    "authorLabel":"Tamara Bach",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q4853732",
+      "Q62083492"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1976-01-18",
+    "place_birth":[
+      "Q16026"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q153006"
+    ],
+    "field_of_work":[
+      "Q11163999",
+      "Q115160290"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q1409542",
+      "Q1903013"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100245",
+    "authorLabel":"Johannes Gillhoff",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q37226",
+      "Q1371378"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1861-05-24",
+    "place_birth":[
+      "Q14548972"
+    ],
+    "date_death":"1930-01-16",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100257",
+    "authorLabel":"Joachim L\u00fctkemann",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1622272",
+      "Q36180",
+      "Q12316990",
+      "Q2296367",
+      "Q955464",
+      "Q98833883"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1608-12-15",
+    "place_birth":[
+      "Q50960"
+    ],
+    "date_death":"1655-10-18",
+    "educated_at":[
+      "Q159895",
+      "Q165528"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100265436",
+    "authorLabel":"Simon Schwichtenberg",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q185351",
+      "Q15980158",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1990",
+    "place_birth":[
+
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q500692"
+    ],
+    "field_of_work":[
+      "Q456632",
+      "Q989632",
+      "Q27801",
+      "Q189900"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100276374",
+    "authorLabel":"Tomasz Jedrowski",
+    "citizenship":[
+      "Q36",
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q185351",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1985-01-01",
+    "place_birth":[
+
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q35794"
+    ],
+    "field_of_work":[
+      "Q115160290",
+      "Q8242"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100284",
+    "authorLabel":"Paul G\u00f6hre",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q1234713",
+      "Q36180",
+      "Q82955"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1864-04-18",
+    "place_birth":[
+      "Q10784"
+    ],
+    "date_death":"1928-06-04",
+    "educated_at":[
+      "Q154804",
+      "Q152087"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100289",
+    "authorLabel":"Max Mendheim",
+    "citizenship":[
+      "Q1206012"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q13570226",
+      "Q4263842",
+      "Q36180",
+      "Q214917",
+      "Q49757",
+      "Q6051619",
+      "Q6430706",
+      "Q876864",
+      "Q998550"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1862-01-11",
+    "place_birth":[
+      "Q2079"
+    ],
+    "date_death":"1939-08-16",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100314",
+    "authorLabel":"Willi Voss",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q28389",
+      "Q1930187",
+      "Q36180",
+      "Q12713481",
+      "Q182436"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1944-05-09",
+    "place_birth":[
+
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100319041",
+    "authorLabel":"Philippa Ndisi-Herrmann",
+    "citizenship":[
+      "Q114",
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q483501",
+      "Q49757",
+      "Q33231",
+      "Q1414443"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1985",
+    "place_birth":[
+      "Q586"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100326095",
+    "authorLabel":"Branwen Okpako",
+    "citizenship":[
+      "Q183",
+      "Q1033"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q2526255",
+      "Q28389",
+      "Q36180",
+      "Q3282637",
+      "Q3455803",
+      "Q7042855"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1969-02-25",
+    "place_birth":[
+      "Q8673"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100331",
+    "authorLabel":"Josef Bergenthal",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q1930187"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1900-11-01",
+    "place_birth":[
+      "Q2010854"
+    ],
+    "date_death":"1982-08-24",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q150793"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100335",
+    "authorLabel":"Karl-Heinz Sch\u00f6nfelder",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q201788",
+      "Q13418253",
+      "Q17167049",
+      "Q36180",
+      "Q11499929",
+      "Q16308157"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1923-01-01",
+    "place_birth":[
+      "Q57881"
+    ],
+    "date_death":"2018-12-29",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q40634",
+      "Q8242",
+      "Q208217"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100339",
+    "authorLabel":"Uwe Janson",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q3282637",
+      "Q2526255",
+      "Q36180",
+      "Q28389",
+      "Q3455803",
+      "Q639669"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1959-11-06",
+    "place_birth":[
+      "Q12444"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q569350",
+      "Q151510"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q879171"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100343",
+    "authorLabel":"Paul M\u00f6hring",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q15462162",
+      "Q36180",
+      "Q10379007",
+      "Q214917",
+      "Q2324479",
+      "Q482980",
+      "Q876864"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1890-01-01",
+    "place_birth":[
+      "Q1055"
+    ],
+    "date_death":"1976-01-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1003615",
+    "authorLabel":"Franz Josef Beranek",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q1622272",
+      "Q36180",
+      "Q13418253",
+      "Q14467526",
+      "Q12347522"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1902-08-08",
+    "place_birth":[
+      "Q581478"
+    ],
+    "date_death":"1967-08-11",
+    "educated_at":[
+      "Q102398072",
+      "Q102398197",
+      "Q102398119"
+    ],
+    "field_of_work":[
+      "Q40634",
+      "Q8162",
+      "Q33384",
+      "Q8641"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q150793"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1003620",
+    "authorLabel":"Franz Kaim",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q158852",
+      "Q17167049",
+      "Q11499929",
+      "Q13570226"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1856-05-13",
+    "place_birth":[
+      "Q14866"
+    ],
+    "date_death":"1935-11-17",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100364",
+    "authorLabel":"Richard Euringer",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q36180",
+      "Q110206191",
+      "Q2095549"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1891-04-04",
+    "place_birth":[
+      "Q2749"
+    ],
+    "date_death":"1953-08-29",
+    "educated_at":[
+      "Q55043"
+    ],
+    "field_of_work":[
+      "Q8242"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100378",
+    "authorLabel":"Valentin Triller",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36834",
+      "Q955464",
+      "Q36180",
+      "Q96236305",
+      "Q13424456"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1493-01-01",
+    "place_birth":[
+      "Q746395"
+    ],
+    "date_death":"1579",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q346575",
+      "Q64138195",
+      "Q1516252"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100382",
+    "authorLabel":"Johannes Kreidler",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q250867",
+      "Q36180",
+      "Q611644",
+      "Q29182",
+      "Q98833890"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1946-01-01",
+    "place_birth":[
+      "Q82690"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q1736311"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q278465"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100383632",
+    "authorLabel":"Martin Seydel",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q14915627",
+      "Q4964182",
+      "Q1622272",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1871-02-10",
+    "place_birth":[
+      "Q1534378"
+    ],
+    "date_death":"1934-08-25",
+    "educated_at":[
+      "Q154804"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100400",
+    "authorLabel":"Tamara Ehlert",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q49757",
+      "Q822146",
+      "Q753110",
+      "Q36180",
+      "Q11085831"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1921-12-28",
+    "place_birth":[
+      "Q4120832"
+    ],
+    "date_death":"2008-01-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q482"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q314469"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100400639",
+    "authorLabel":"Matthias Scharlach",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q121594",
+      "Q131524",
+      "Q1622272",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1950-10-22",
+    "place_birth":[
+      "Q14925"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1004128",
+    "authorLabel":"Frutolf of Michelsberg",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q733786",
+      "Q201788",
+      "Q16031530",
+      "Q36180",
+      "Q42603"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":null,
+    "place_birth":[
+
+    ],
+    "date_death":"1103-01-17",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100414",
+    "authorLabel":"Rudolf von Waldenfels",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q10800557",
+      "Q2259451",
+      "Q36180",
+      "Q33999"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1965-04-26",
+    "place_birth":[
+      "Q16045"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100421346",
+    "authorLabel":"Bettina Albrecht-Griessler",
+    "citizenship":[
+      "Q533534",
+      "Q40"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1878-03-30",
+    "place_birth":[
+      "Q675463"
+    ],
+    "date_death":"1965-02-24",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100421354",
+    "authorLabel":"Magda Babitsch",
+    "citizenship":[
+      "Q533534",
+      "Q40"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q37226",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1908-03-18",
+    "place_birth":[
+      "Q82500"
+    ],
+    "date_death":"1981-02-03",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100421369",
+    "authorLabel":"Anne-Marie Bartel",
+    "citizenship":[
+      "Q40"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1890-11-30",
+    "place_birth":[
+      "Q41753"
+    ],
+    "date_death":"1982-10-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100421374",
+    "authorLabel":"Silvia Baumann",
+    "citizenship":[
+      "Q40"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1960-12-29",
+    "place_birth":[
+      "Q1735"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q875788"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100421384",
+    "authorLabel":"Anna Boog",
+    "citizenship":[
+      "Q40"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q4853732",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1894-06-16",
+    "place_birth":[
+      "Q39193"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100427",
+    "authorLabel":"Anna Blos",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q82955",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1866-08-04",
+    "place_birth":[
+      "Q106274"
+    ],
+    "date_death":"1933-04-27",
+    "educated_at":[
+      "Q152087"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100443",
+    "authorLabel":"Martin Sch\u00e4uble",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q15980158",
+      "Q1930187",
+      "Q2306091",
+      "Q1238570"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1978-12-07",
+    "place_birth":[
+      "Q6855"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q180774",
+      "Q20443047",
+      "Q11030",
+      "Q21201",
+      "Q36442",
+      "Q113209507"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100450",
+    "authorLabel":"Stephan Fridolin",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q432386"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1430-01-01",
+    "place_birth":[
+      "Q82741"
+    ],
+    "date_death":"1498-01-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q60797"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100457",
+    "authorLabel":"Michael Ranft",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q201788",
+      "Q36180",
+      "Q609016",
+      "Q115783625",
+      "Q4964182",
+      "Q955464"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1700-12-09",
+    "place_birth":[
+      "Q1497168"
+    ],
+    "date_death":"1774-04-18",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100470",
+    "authorLabel":"Lois Fisher-Ruge",
+    "citizenship":[
+      "Q30",
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1940-01-01",
+    "place_birth":[
+      "Q33486"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q10905380"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1004804",
+    "authorLabel":"Bumillo",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q49757",
+      "Q36180",
+      "Q4220878"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1981-01-01",
+    "place_birth":[
+      "Q4007"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q2318822"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100483",
+    "authorLabel":"Wolfgang Foerster",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q1493121",
+      "Q635734",
+      "Q189290",
+      "Q36180",
+      "Q201788"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1875-08-04",
+    "place_birth":[
+      "Q1799"
+    ],
+    "date_death":"1963-10-14",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q192781",
+      "Q8473",
+      "Q380313",
+      "Q309",
+      "Q1791716"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100495",
+    "authorLabel":"Willi Reschke",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q2095549",
+      "Q4991371",
+      "Q618694"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1922-02-03",
+    "place_birth":[
+      "Q148947"
+    ],
+    "date_death":"2017-07-05",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q17412908",
+      "Q165558"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100510813",
+    "authorLabel":"Isolde Lachmann",
+    "citizenship":[
+      "Q40"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1940-01-01",
+    "place_birth":[
+      "Q41329"
+    ],
+    "date_death":"2006-01-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100515",
+    "authorLabel":"Wolfgang J\u00f6hling",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q333634",
+      "Q6051619",
+      "Q33231",
+      "Q36180",
+      "Q11900058",
+      "Q49757"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1944-01-01",
+    "place_birth":[
+      "Q4077"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100520",
+    "authorLabel":"Wilhelm Weigand",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q49757",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1862-03-13",
+    "place_birth":[
+      "Q26271280"
+    ],
+    "date_death":"1949-12-20",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q812155"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100522",
+    "authorLabel":"Silvia Arroyo Camejo",
+    "citizenship":[
+      "Q183",
+      "Q29"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q15980158",
+      "Q36180",
+      "Q169470"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1986-01-01",
+    "place_birth":[
+      "Q64"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100528",
+    "authorLabel":"Ernesto Kroch",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q82955",
+      "Q15627169",
+      "Q36180",
+      "Q12713481",
+      "Q15253558",
+      "Q1906854",
+      "Q333634",
+      "Q482980",
+      "Q98833914"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1917-02-11",
+    "place_birth":[
+      "Q1799",
+      "Q183"
+    ],
+    "date_death":"2012-03-11",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100529",
+    "authorLabel":"Rudolf Lenz",
+    "citizenship":[
+      "Q298",
+      "Q1206012"
+    ],
+    "writing_language":[
+      "Q1321",
+      "Q188"
+    ],
+    "occupation":[
+      "Q2504617",
+      "Q14467526",
+      "Q1622272",
+      "Q36180",
+      "Q3075052",
+      "Q1371378"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1863-09-10",
+    "place_birth":[
+      "Q2814"
+    ],
+    "date_death":"1938-09-07",
+    "educated_at":[
+      "Q152171",
+      "Q152087"
+    ],
+    "field_of_work":[
+      "Q857295",
+      "Q33730",
+      "Q2580474",
+      "Q33856"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100537",
+    "authorLabel":"Mareike Kr\u00fcgel",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q1757008",
+      "Q4853732"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1977-01-01",
+    "place_birth":[
+      "Q1707"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q1457776"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100541",
+    "authorLabel":"Werner Schreib",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1028181",
+      "Q36180",
+      "Q1925963",
+      "Q15296811",
+      "Q644687"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1925-01-01",
+    "place_birth":[
+      "Q64"
+    ],
+    "date_death":"1969-01-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q1979533"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100544594",
+    "authorLabel":"Brigitte Peter",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q4853732"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1936-03-13",
+    "place_birth":[
+      "Q2100"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100559281",
+    "authorLabel":"Reingard Witzmann",
+    "citizenship":[
+      "Q40"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q1371378",
+      "Q1231865",
+      "Q36180",
+      "Q674426",
+      "Q780596",
+      "Q201788"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1948-01-01",
+    "place_birth":[
+      "Q1741"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q165980"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100562",
+    "authorLabel":"Walter Schultheiss",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q2259451",
+      "Q10800557",
+      "Q1028181",
+      "Q15214752",
+      "Q33999",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1924-05-25",
+    "place_birth":[
+      "Q3806"
+    ],
+    "date_death":"2025-12-22",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q445673",
+      "Q10905380"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100577",
+    "authorLabel":"Lukas Hammerstein",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q2722764",
+      "Q876864",
+      "Q40348",
+      "Q1209498",
+      "Q185351"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1958-01-01",
+    "place_birth":[
+      "Q2833"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100578",
+    "authorLabel":"Daniela Castner",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q212980",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1948-05-16",
+    "place_birth":[
+      "Q64"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100579",
+    "authorLabel":"Nicolas de Crosta",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1900-08-30",
+    "place_birth":[
+      "Q1711"
+    ],
+    "date_death":"1972-05-23",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q115160290",
+      "Q113209507"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100583",
+    "authorLabel":"Friedrich Eberhard Rambach",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q1622272",
+      "Q16267607"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1767-07-14",
+    "place_birth":[
+      "Q40623"
+    ],
+    "date_death":"1826-06-30",
+    "educated_at":[
+      "Q32120"
+    ],
+    "field_of_work":[
+      "Q40634"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100600",
+    "authorLabel":"Dilek Zapt\u00e7\u0131o\u011flu",
+    "citizenship":[
+      "Q183",
+      "Q43"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q333634",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1959-01-01",
+    "place_birth":[
+      "Q406"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q831926"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q1555484"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100602",
+    "authorLabel":"Ernst Hannawald",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q33999",
+      "Q36180",
+      "Q10800557",
+      "Q10798782",
+      "Q482980"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1959-10-20",
+    "place_birth":[
+      "Q532986"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100604",
+    "authorLabel":"Tina Ruland",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q33999",
+      "Q728711",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1966-10-09",
+    "place_birth":[
+      "Q365"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q28837429",
+      "Q80134501"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100610",
+    "authorLabel":"Tessa Korber",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q10297252",
+      "Q15980158",
+      "Q1607826",
+      "Q201788",
+      "Q2599593",
+      "Q462390",
+      "Q96045115"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1966-01-01",
+    "place_birth":[
+      "Q22956"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100612",
+    "authorLabel":"Ewald von Demandowsky",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q3282637",
+      "Q1930187",
+      "Q487596",
+      "Q17337766",
+      "Q21292974",
+      "Q214917",
+      "Q33999",
+      "Q36180",
+      "Q876864"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1906-10-21",
+    "place_birth":[
+      "Q64"
+    ],
+    "date_death":"1946-10-07",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100624",
+    "authorLabel":"Friedrich Eberhard von Rochow",
+    "citizenship":[
+      "Q27306"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q1231865",
+      "Q36180",
+      "Q1237385"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1734-10-11",
+    "place_birth":[
+      "Q64"
+    ],
+    "date_death":"1805-05-16",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100628",
+    "authorLabel":"Fedor Sommer",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q37226",
+      "Q1265001",
+      "Q1231865"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1864-09-21",
+    "place_birth":[
+      "Q990057"
+    ],
+    "date_death":"1930-06-16",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100635654",
+    "authorLabel":"Maria Lang-Reitst\u00e4tter",
+    "citizenship":[
+      "Q533534",
+      "Q40"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q1371378",
+      "Q36180",
+      "Q37226"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1898-02-26",
+    "place_birth":[
+      "Q1741"
+    ],
+    "date_death":"1977",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100660",
+    "authorLabel":"Kurt L\u00fctgen",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q36180",
+      "Q2599593",
+      "Q201788"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1911-11-25",
+    "place_birth":[
+      "Q5569550"
+    ],
+    "date_death":"1992-07-25",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q309",
+      "Q166153",
+      "Q181287"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q1457767",
+      "Q1424900",
+      "Q1457767",
+      "Q1457767",
+      "Q10905380"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100671",
+    "authorLabel":"Sabine Thiesler",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q214917",
+      "Q28389",
+      "Q33999",
+      "Q2259451",
+      "Q10798782",
+      "Q1776724"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1957-01-01",
+    "place_birth":[
+      "Q64"
+    ],
+    "date_death":null,
+    "educated_at":[
+      "Q153006",
+      "Q2232154"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q472379"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100688",
+    "authorLabel":"Wolfgang Johannes Bekh",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q33999"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1925-04-14",
+    "place_birth":[
+      "Q1726"
+    ],
+    "date_death":"2010-12-22",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q672787"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100705090",
+    "authorLabel":"Brigitte Harum",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q4853732",
+      "Q333634",
+      "Q2516852",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1933-11-18",
+    "place_birth":[
+      "Q311543"
+    ],
+    "date_death":"2020-12-07",
+    "educated_at":[
+      "Q622683"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100706511",
+    "authorLabel":"Sybille Kalas",
+    "citizenship":[
+
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q333634",
+      "Q864503",
+      "Q4853732",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1949-01-01",
+    "place_birth":[
+      "Q7040"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q420",
+      "Q7553",
+      "Q11163999",
+      "Q115160303"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100706618",
+    "authorLabel":"Rosa Maria Plattner",
+    "citizenship":[
+      "Q40"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q36180",
+      "Q876864",
+      "Q3455803",
+      "Q37226"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1949-01-01",
+    "place_birth":[
+      "Q660428"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100713",
+    "authorLabel":"Guido Henkel",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36834",
+      "Q36180",
+      "Q81096"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1964-09-09",
+    "place_birth":[
+      "Q1022"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100715",
+    "authorLabel":"Alfons Rosenberg",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q155647",
+      "Q11613590"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1902-01-06",
+    "place_birth":[
+      "Q1726"
+    ],
+    "date_death":"1985-09-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q45996",
+      "Q9348887",
+      "Q34362"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q1007175",
+    "authorLabel":"Gabriel Bucelin",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q516463",
+      "Q36180",
+      "Q1734662",
+      "Q17166634",
+      "Q201788",
+      "Q8963721"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1599-12-27",
+    "place_birth":[
+      "Q67128"
+    ],
+    "date_death":"1681-06-09",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100729",
+    "authorLabel":"Johann Benjamin Erhard",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q39631",
+      "Q4964182",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1766-02-08",
+    "place_birth":[
+      "Q2090"
+    ],
+    "date_death":"1827-11-28",
+    "educated_at":[
+      "Q161976"
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100754",
+    "authorLabel":"Princess Maria Theresia of Thurn and Taxis",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1980-11-28",
+    "place_birth":[
+      "Q2978"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100763",
+    "authorLabel":"Gerold Tietz",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1941-01-01",
+    "place_birth":[
+      "Q506156"
+    ],
+    "date_death":"2009-01-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+      "Q2363183"
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100774635",
+    "authorLabel":"Lutz Krusche",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q36180"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1939",
+    "place_birth":[
+
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q100773817",
+      "Q3404958"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100776800",
+    "authorLabel":"Slata Roschal",
+    "citizenship":[
+      "Q159",
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q36180",
+      "Q49757",
+      "Q214917",
+      "Q17167049",
+      "Q11499929",
+      "Q333634"
+    ],
+    "sex_gender":[
+      "Q6581072"
+    ],
+    "date_birth":"1992-01-28",
+    "place_birth":[
+      "Q656"
+    ],
+    "date_death":null,
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q115160290",
+      "Q208217",
+      "Q482",
+      "Q25372"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q90572663"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100791",
+    "authorLabel":"Fedor von Zobeltitz",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q1930187",
+      "Q36180",
+      "Q18120029",
+      "Q214917"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1857-10-05",
+    "place_birth":[
+      "Q54157"
+    ],
+    "date_death":"1934-02-10",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100794",
+    "authorLabel":"Hauke Lange-Fuchs",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q40348",
+      "Q36180",
+      "Q185351",
+      "Q4220892"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1934-05-30",
+    "place_birth":[
+      "Q1707"
+    ],
+    "date_death":"2019-11-27",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100802",
+    "authorLabel":"Erwin Bootz",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q138858",
+      "Q486748",
+      "Q36180",
+      "Q1643514",
+      "Q177220",
+      "Q33999",
+      "Q36834"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1907-01-01",
+    "place_birth":[
+      "Q393"
+    ],
+    "date_death":"1982-01-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100810",
+    "authorLabel":"Arnold Mallinckrodt",
+    "citizenship":[
+      "Q249428",
+      "Q27306"
+    ],
+    "writing_language":[
+      "Q188"
+    ],
+    "occupation":[
+      "Q36180",
+      "Q6051619",
+      "Q201788"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1768-03-27",
+    "place_birth":[
+      "Q1295"
+    ],
+    "date_death":"1825-06-12",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100831",
+    "authorLabel":"Friedrich Noack",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q1792450",
+      "Q201788",
+      "Q1930187",
+      "Q36180",
+      "Q1231865",
+      "Q182436",
+      "Q42973",
+      "Q876864"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1858-04-20",
+    "place_birth":[
+      "Q3874"
+    ],
+    "date_death":"1930-02-01",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q11030",
+      "Q113209507",
+      "Q858517"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100838",
+    "authorLabel":"Herbert Gruhl",
+    "citizenship":[
+      "Q183"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q82955",
+      "Q36180",
+      "Q3578589",
+      "Q482980"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1921-10-22",
+    "place_birth":[
+      "Q93228"
+    ],
+    "date_death":"1993-06-26",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q10905380"
+    ],
+    "movement":[
+
+    ]
+  },
+  {
+    "author":"http:\/\/www.wikidata.org\/entity\/Q100844",
+    "authorLabel":"Michael Degen",
+    "citizenship":[
+      "Q183",
+      "Q801"
+    ],
+    "writing_language":[
+
+    ],
+    "occupation":[
+      "Q2259451",
+      "Q10800557",
+      "Q33999",
+      "Q36180",
+      "Q3455803",
+      "Q482980"
+    ],
+    "sex_gender":[
+      "Q6581097"
+    ],
+    "date_birth":"1928-01-31",
+    "place_birth":[
+      "Q2795"
+    ],
+    "date_death":"2022-04-09",
+    "educated_at":[
+
+    ],
+    "field_of_work":[
+      "Q222749",
+      "Q113209507"
+    ],
+    "genre":[
+
+    ],
+    "member_of":[
+
+    ],
+    "influenced_by":[
+
+    ],
+    "award_received":[
+      "Q1450895",
+      "Q821456"
+    ],
+    "movement":[
+
+    ]
+  }
+]

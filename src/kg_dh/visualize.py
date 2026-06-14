@@ -116,7 +116,7 @@ def scale_size(in_degree: int, min_degree: int, max_degree: int) -> int:
     # — ratio=0.0 → MIN_ENTITY_SIZE (e.g. 8px,  least connected entity)
     # — ratio=1.0 → MAX_ENTITY_SIZE (e.g. 50px, most connected entity)
     # — ratio=0.5 → midpoint        (e.g. 29px, average connectivity)
-    return int(MIN_ENTITY_SIZE + ratio * ())
+    return int(MIN_ENTITY_SIZE + ratio * (MAX_ENTITY_SIZE - MIN_ENTITY_SIZE))
 
 
 def prepare_nx_for_pyvis(G: nx.DiGraph) -> nx.DiGraph:

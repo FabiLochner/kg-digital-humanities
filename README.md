@@ -1,6 +1,6 @@
 # Knowledge Graph for Digital Humanities
 
-![KG.png](docs%2F/germany_authors_3000_2026-06-12_kg_all_html.png)
+![KG Visualization](docs%2fgermany_authors_3000_2026-06-12_kg_all_html.png)
 
 
 > A reproducible pipeline for constructing and interactively visualizing heterogeneous Knowledge Graphs (KGs) of German, UK and Dutch language literary authors from Wikidata — built for exploratory research in Digital Humanities.
@@ -19,7 +19,7 @@
    - [Step 2 — KG Construction & Visualization](#step-2--kg-construction--visualization)
 7. [KG Design Decisions](#kg-design-decisions)
 8. [Visualization Features](#visualization-features)
-9. [Scaling Guide](#scaling-guide)
+9. [Future Work](#future-work)
 10. [Data Sources & Acknowledgements](#data-sources--acknowledgements)
 11. [License](#license)
 
@@ -48,7 +48,7 @@ Literary history is rich with connections between authors, movements, institutio
 | Wikidata SPARQL API | Phase 1: collecting author QIDs |
 | Wikidata `wbgetentities` API | Phase 2: fetching author properties |
 | NetworkX | KG graph construction and statistics |
-| pyvis | Interactive HTML visualization (≤ 3,000 nodes) |
+| pyvis | Interactive HTML visualization (≤ 3,000 authors) |
 | Gephi (GEXF export) | Visualization for 3,000+ authors |
 
 ---
@@ -315,6 +315,30 @@ The interactive HTML files include:
 | **Gephi export** | GEXF files for Gephi analysis at 30,000+ author scale |
 
 ---
+
+
+## Future Work
+
+### Planned
+
+**Expand author corpora**
+- [ ] UK authors (citizenship: Q145) — SPARQL query implemented, full run pending
+- [ ] Dutch authors (Dutch citizenship OR Dutch writing language) — query implemented, full run pending
+- [ ] Combined multi-language KG (Germany + UK + Netherlands)
+
+**Larger German corpus**
+- [ ] 10,000 German authors → Gephi GEXF export and analysis
+- [ ] Full corpus (~28,000 German authors) → Gephi GEXF export
+
+**Network analysis**
+- [ ] Community detection (e.g., Louvain method) 
+- [ ] Connected components analysis
+- [ ] Degree distribution and scale-free network analysis
+- [ ] Temporal analysis — how do literary properties shift across birth decades?
+
+**Visualization improvements**
+- [ ] [Jaal dashboard](https://github.com/imohitmayank/jaal) as alternative to pyvis for richer attribute filtering
+- [ ] Network statistics summary panel embedded in HTML output
 
 
 ## Data Sources & Acknowledgements

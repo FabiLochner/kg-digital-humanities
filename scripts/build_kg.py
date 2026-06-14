@@ -55,7 +55,7 @@ from kg_dh.graph import (
 from kg_dh.visualize import (
     build_pyvis,
     prepare_nx_for_pyvis,
-    save_html,
+    save_html_with_overlays,
     build_gephi_export,
 )
 
@@ -137,7 +137,7 @@ def main() -> None:
         print("Building pyvis visualization...")
         G = prepare_nx_for_pyvis(G)
         net = build_pyvis(G)
-        save_html(net, out_dir / f"{out_stem}.html")
+        save_html_with_overlays(net, out_dir / f"{out_stem}.html")
 
     elif args.output_format == "gexf":
         print("Exporting to Gephi GEXF...")

@@ -156,8 +156,8 @@ def build_graph(
         writing_language = resolve_label_list(author.get("writing_language", []), labels)
         # only keep top 3 occupations to avoid noise in visualization
         occupation     = resolve_label_list(author.get("occupation", [])[:3], labels)   
-        birth_year = resolve_label(author.get("date_birth"))
-        death_year = resolve_label(author.get("date_death"))
+        birth_year = parse_year(author.get("date_birth"))
+        death_year = parse_year(author.get("date_death"))
 
         # 3) add author node
         G.add_node(

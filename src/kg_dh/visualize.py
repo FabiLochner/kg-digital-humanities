@@ -12,15 +12,18 @@ Workflow:
     G = build_graph(...)    # graph.py
     G = prepare_nx_for_pyvis(G) # enriches G with color/size/tooltip attributes
     net = build_pyvis()     # wraps into pyvis network
-    save_html(net, path)    # writes HTML file
+    save_html_with_overlays(net, path, G)    # saves HTML + injects legend and stats
     build_gephi_gexf(G, path)    # build GEXF file for Gephi export 
 
 """
 
 # 1) import libraries
+# general
 from pathlib import Path
 import networkx as nx
 from pyvis.network import Network
+# from graph.py
+from kg_dh.graph import EDGE_TYPE_PROPS
 
 # 2) config settings 
 
@@ -59,6 +62,11 @@ MAX_ENTITY_SIZE: int = 50
 MAX_LABEL_LENGTH: int = 25
 
 
+## 2.3) displayed network statistics
+# number of top entities shown per type in the stats panel
+TOP_N: int = 5
+
+
 # 3) write functions 
 
 
@@ -75,8 +83,8 @@ def build_hover_tooltip(node_id: str, node_data: dict) -> str:
     if node_type == "author":
         lines = [
             f"<b>{label}</b>",
-            f"<i style='color:#aaa'>{node_id}</i>",
-            "<hr style='border-color:#444'>",
+            f"{node_id}",
+            "<hr>",
             f"<b>Sex/gender:</b> {node_data.get('sex_gender', 'n/a')}",
             f"<b>Citizenship:</b> {node_data.get('citizenship', 'n/a')}",
             f"<b>Birth year:</b> {node_data.get('birth_year', 'n/a')}",
@@ -87,7 +95,7 @@ def build_hover_tooltip(node_id: str, node_data: dict) -> str:
     else:
         lines = [
             f"<b>{label}</b>",
-            f"<i style='color:#aaa'>{node_id}</i>",
+            f"{node_id}",
             f"<b>Type:</b> {node_type.replace('_', ' ')}",
         ]
     return "<br>".join(lines)
@@ -157,7 +165,7 @@ def prepare_nx_for_pyvis(G: nx.DiGraph) -> nx.DiGraph:
         # colour by node type
         # fallback grey for any node_type not defined in NODE_COLORS
         # visible against the dark background without clashing with defined colours
-        NODE_COLORS.get(node_type, "#888888")
+        G.nodes[node_id]["color"] = NODE_COLORS.get(node_type, "#888888")
 
         # author nodes: uniform fixed size
         # entity nodes: scaled by in-degree — more shared = visually larger
@@ -167,9 +175,6 @@ def prepare_nx_for_pyvis(G: nx.DiGraph) -> nx.DiGraph:
             G.nodes[node_id]["size"] = scale_size(
                 entity_in_degrees[node_id], min_in_degree, max_in_degree
             )
-
-        # HTML hover tooltip
-        G.nodes[node_id]["title"] = build_hover_tooltip(node_id, data)
 
         # truncate long labels for readability
         raw_label = data.get("label", node_id)
@@ -200,7 +205,6 @@ def build_pyvis(
 
     Features enabled:
         directed=True     — arrows show edge direction
-        select_menu=True  — node search panel (top-left)
         filter_menu=True  — attribute filter panel (filter by node_type etc.)
         barnes_hut()      — force-directed physics, handles heterogeneous graphs
                             better than the default repulsion model
@@ -212,13 +216,21 @@ def build_pyvis(
         bgcolor = "#1a1a2e",   # dark background — nodes pop visually
         font_color = "white",
         directed=True, #directed graph
-        select_menu=True, 
-        filter_menu= True #ability to filter nodes and edges based on attributes
+        select_menu=False,  # removed: showed QIDs not labels, not useful
+        filter_menu= True, #ability to filter nodes and edges based on attributes
+        cdn_resources="in_line" # embed vis.js directly - no internet needed to open
     )
 
     # from_nx translates networkx attributes (title, color, size, label)
     # directly to vis.js node properties - no manual re-mapping needed
     net.from_nx(G)
+
+    # set HTML tooltips directly on pyvis nodes after from_nx —
+    # from_nx does not reliably pass HTML through to vis.js
+    for node in net.nodes:
+        node_id = node["id"]
+        node_data = G.nodes[node_id]
+        node["title"] = build_hover_tooltip(node_id, node_data)
 
     # use barnes_hut as physics for KG:
     # gravity pulls unconnected clusters together while edges push aprt
@@ -227,11 +239,203 @@ def build_pyvis(
     return net
 
 
-def save_html(net: Network, output_path: str | Path) -> None:
-    """Save pyvis Network to a self-contained HTML file a user of the repo can open directly for visual exploration of the KG."""
+def build_legend_html(
+    node_colors: dict[str, str],
+    active_node_types: set[str],
+) -> str:
+    """
+    Build HTML for the node type colour legend overlay.
+    Only shows node types actually present in the graph.
+    Positioned fixed at bottom-left of the browser window.
+    """
+    items = []
+    for node_type, color in node_colors.items():
+        if node_type not in active_node_types:
+            # skip types not present in this graph
+            continue
+        label = node_type.replace("_", " ").title()
+        items.append(
+            f'<div style="display:flex;align-items:center;margin:4px 0;">'
+            f'<div style="width:13px;height:13px;background:{color};'
+            f'border-radius:50%;margin-right:8px;flex-shrink:0;"></div>'
+            f'<span>{label}</span>'
+            f'</div>'
+        )
+
+    items_html = "\n".join(items)
+    return f"""
+    <div id="kg-legend" style="
+        position:fixed; bottom:20px; left:20px;
+        background:rgba(26,26,46,0.92);
+        color:white; padding:12px 16px; border-radius:8px;
+        font-family:Arial,sans-serif; font-size:13px;
+        z-index:1000; min-width:180px;
+        border:1px solid rgba(255,255,255,0.15);
+    ">
+        <div style="font-weight:bold;margin-bottom:8px;font-size:14px;">
+            Node Types
+        </div>
+        {items_html}
+    </div>
+    """
+
+
+
+def compute_top_entities_per_type(
+    G: nx.DiGraph,
+    top_n: int = TOP_N,
+) -> dict[str, list[dict]]:
+    """
+    For each entity type present in the graph, return the top-N nodes
+    by in-degree (number of authors connected to them).
+
+    Returns dict keyed by entity type, values are lists of
+    {label, in_degree} dicts sorted descending by in_degree.
+    Preserves EDGE_TYPE_PROPS ordering for consistent display.
+    """
+    results = {}
+    for edge_type in EDGE_TYPE_PROPS:
+        # collect nodes of this type present in the graph
+        nodes_of_type = [
+            n for n, d in G.nodes(data=True)
+            if d.get("node_type") == edge_type
+        ]
+        if not nodes_of_type:
+            # skip types with no nodes in this graph
+            continue
+
+        # sort by in-degree descending, take top N
+        top_nodes = sorted(
+            nodes_of_type,
+            key=lambda n: G.in_degree(n),
+            reverse=True,
+        )[:top_n]
+
+        results[edge_type] = [
+            {
+                "label":     G.nodes[n].get("label", n),
+                "in_degree": G.in_degree(n),
+            }
+            for n in top_nodes
+        ]
+    return results
+
+
+def build_stats_html(
+    top_entities_per_type: dict[str, list[dict]],
+    node_colors: dict[str, str],
+    top_n: int = TOP_N,
+) -> str:
+    """
+    Build HTML for the top-N entities per type stats panel overlay.
+    Shows entity label and in-degree (number of connected authors) per type.
+    Positioned fixed at bottom-right of the browser window, scrollable.
+    """
+    sections = []
+    for entity_type, entities in top_entities_per_type.items():
+        if not entities:
+            continue
+        color      = node_colors.get(entity_type, "#888888")
+        type_label = entity_type.replace("_", " ").title()
+
+        # build table rows for this entity type
+        rows_html = ""
+        for rank, entry in enumerate(entities, start=1):
+            rows_html += (
+                f'<tr>'
+                f'<td style="padding:2px 6px;color:#aaa;">{rank}</td>'
+                f'<td style="padding:2px 6px;">{entry["label"]}</td>'
+                f'<td style="padding:2px 6px;text-align:center;'
+                f'color:#E8C547;">{entry["in_degree"]}</td>'
+                f'</tr>'
+            )
+
+        sections.append(f"""
+        <div style="margin-bottom:14px;">
+            <div style="display:flex;align-items:center;margin-bottom:5px;">
+                <div style="width:10px;height:10px;background:{color};
+                    border-radius:50%;margin-right:7px;"></div>
+                <span style="font-weight:bold;font-size:12px;">{type_label}</span>
+            </div>
+            <table style="width:100%;border-collapse:collapse;font-size:12px;">
+                <tr style="color:#aaa;border-bottom:1px solid #444;">
+                    <th style="padding:2px 6px;text-align:left;">#</th>
+                    <th style="padding:2px 6px;text-align:left;">Entity</th>
+                    <th style="padding:2px 6px;text-align:center;">Authors</th>
+                </tr>
+                {rows_html}
+            </table>
+        </div>
+        """)
+
+    sections_html = "\n".join(sections)
+    return f"""
+    <div id="kg-stats" style="
+        position:fixed; bottom:20px; right:20px;
+        background:rgba(26,26,46,0.92);
+        color:white; padding:12px 16px; border-radius:8px;
+        font-family:Arial,sans-serif; font-size:13px;
+        z-index:1000; max-width:260px;
+        max-height:60vh; overflow-y:auto;
+        border:1px solid rgba(255,255,255,0.15);
+    ">
+        <div style="font-weight:bold;margin-bottom:10px;font-size:14px;">
+            Top {top_n} per Entity Type
+        </div>
+        {sections_html}
+    </div>
+    """
+
+
+def inject_into_html(html_path: Path, *html_snippets: str) -> None:
+    """
+    Inject one or more HTML snippets before the closing </body> tag
+    of an existing HTML file. Modifies the file in place.
+    """
+    content = html_path.read_text(encoding="utf-8")
+    injection = "\n".join(html_snippets)
+    # insert overlays just before </body> so they render on top of the graph
+    content = content.replace("</body>", f"{injection}\n</body>")
+    html_path.write_text(content, encoding="utf-8")
+
+
+
+def save_html_with_overlays(
+    net: Network,
+    output_path: str | Path,
+    G: nx.DiGraph,
+    node_colors: dict[str, str] = NODE_COLORS,
+    top_n: int = TOP_N,
+) -> None:
+    """
+    Save pyvis Network to a self-contained HTML file, then inject:
+      - Colour legend (bottom-left): shows node type → colour mapping
+      - Stats panel (bottom-right): top-N entities per type by in-degree
+
+    Only node types actually present in the graph appear in the overlays.
+    The colleague can open the HTML directly — no internet or server needed.
+    """
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # 1) save base pyvis HTML
     net.save_graph(str(output_path))
+
+    # 2) build legend — only for node types present in this graph
+    active_node_types = {
+        d.get("node_type")
+        for _, d in G.nodes(data=True)
+        if d.get("node_type")
+    }
+    legend_html = build_legend_html(node_colors, active_node_types)
+
+    # 3) build stats panel — top-N per entity type by in-degree
+    top_entities = compute_top_entities_per_type(G, top_n=top_n)
+    stats_html   = build_stats_html(top_entities, node_colors, top_n=top_n)
+
+    # 4) inject both overlays into the saved HTML in one pass
+    inject_into_html(output_path, legend_html, stats_html)
+
     print(f"Saved visualization → {output_path}")
 
 

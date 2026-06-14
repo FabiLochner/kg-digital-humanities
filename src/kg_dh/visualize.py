@@ -43,10 +43,10 @@ NODE_COLORS: dict[str, str] = {
 }
 
 
-# edge colours match their target node type for visual coherence
-EDGE_COLORS: dict[str, str] = {
-    k: v for k, v in NODE_COLORS.items() if k != "author"
-}
+# # edge colours match their target node type for visual coherence
+# EDGE_COLORS: dict[str, str] = {
+#     k: v for k, v in NODE_COLORS.items() if k != "author"
+# }
 
 ## 2.2) pixel sizes
 
@@ -142,7 +142,6 @@ def prepare_nx_for_pyvis(G: nx.DiGraph) -> nx.DiGraph:
         label  — truncated display label (max MAX_LABEL_LENGTH chars)
 
     Sets on each edge:
-        color  — by relation type (see EDGE_COLORS)
         title  — relation type shown on edge hover
     
     
@@ -186,8 +185,8 @@ def prepare_nx_for_pyvis(G: nx.DiGraph) -> nx.DiGraph:
 
     for src, tgt, data in G.edges(data = True):
         relation = data.get("relation", "unknown")
-        # edge colour matches target node type (if not available, also grey backfall)
-        G.edges[src, tgt]["color"] = EDGE_COLORS.get(relation, "#888888")
+        # all edges uniform grey
+        G.edges[src, tgt]["color"] = "rgba(180, 180, 180, 0.3)"
         # label shown on edge hover
         G.edges[src, tgt]["title"] = relation.replace("_", " ")
 
@@ -213,7 +212,7 @@ def build_pyvis(
     net = Network(
         height = height,
         width=width,
-        bgcolor = "#1a1a2e",   # dark background — nodes pop visually
+        bgcolor = "#0d1117",   # dark background — nodes pop visually
         font_color = "white",
         directed=True, #directed graph
         select_menu=False,  # removed: showed QIDs not labels, not useful
@@ -234,7 +233,24 @@ def build_pyvis(
 
     # use barnes_hut as physics for KG:
     # gravity pulls unconnected clusters together while edges push aprt
-    net.barnes_hut()
+    net.set_options("""
+    {
+        "physics": {
+            "barnesHut": {
+                "gravitationalConstant": -3000,
+                "centralGravity": 0.8,
+                "springLength": 120,
+                "springConstant": 0.05,
+                "damping": 0.2
+            },
+            "stabilization": {
+                "enabled": true,
+                "iterations": 300,
+                "updateInterval": 10
+            }
+        }
+    }
+    """)
 
     return net
 
@@ -343,8 +359,8 @@ def build_stats_html(
         for rank, entry in enumerate(entities, start=1):
             rows_html += (
                 f'<tr>'
-                f'<td style="padding:2px 6px;color:#aaa;">{rank}</td>'
-                f'<td style="padding:2px 6px;">{entry["label"]}</td>'
+                f'<td style="padding:2px 6px;color:#ccc;">{rank}</td>'
+                f'<td style="padding:2px 6px;color:white;">{entry["label"]}</td>'
                 f'<td style="padding:2px 6px;text-align:center;'
                 f'color:#E8C547;">{entry["in_degree"]}</td>'
                 f'</tr>'
@@ -399,6 +415,44 @@ def inject_into_html(html_path: Path, *html_snippets: str) -> None:
     html_path.write_text(content, encoding="utf-8")
 
 
+def build_custom_tooltip_js() -> str:
+    """
+    Inject JavaScript that converts each node's title string into a DOM element.
+    vis.js renders DOM elements as HTML but sanitises strings as plain text.
+    Runs after network initialises by polling for the vis.js DataSet.
+    """
+    return """
+    <script>
+    (function() {
+        var poll = setInterval(function() {
+            if (typeof network === 'undefined' || typeof nodes === 'undefined') return;
+            clearInterval(poll);
+
+            // convert each node's title string into a styled DOM element
+            // vis.js renders DOM elements as HTML, strings as plain text
+            var allNodes = nodes.get();
+            allNodes.forEach(function(node) {
+                if (node.title) {
+                    var div = document.createElement('div');
+                    div.style.cssText = [
+                        'color:white',
+                        'background:rgba(20,20,40,0.97)',
+                        'padding:10px 14px',
+                        'border-radius:8px',
+                        'font-size:13px',
+                        'font-family:Arial,sans-serif',
+                        'max-width:280px',
+                        'border:1px solid rgba(255,255,255,0.2)',
+                        'line-height:1.8'
+                    ].join(';');
+                    div.innerHTML = node.title;
+                    nodes.update({ id: node.id, title: div });
+                }
+            });
+        }, 100);
+    })();
+    </script>
+    """
 
 def save_html_with_overlays(
     net: Network,
@@ -434,7 +488,8 @@ def save_html_with_overlays(
     stats_html   = build_stats_html(top_entities, node_colors, top_n=top_n)
 
     # 4) inject both overlays into the saved HTML in one pass
-    inject_into_html(output_path, legend_html, stats_html)
+    tooltip_js = build_custom_tooltip_js()
+    inject_into_html(output_path, legend_html, stats_html, tooltip_js)
 
     print(f"Saved visualization → {output_path}")
 

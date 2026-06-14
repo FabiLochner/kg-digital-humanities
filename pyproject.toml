@@ -5,13 +5,9 @@ description = "Knowledge Graph for Digital Humanities"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "http-client>=0.1.22",
-    "logging>=0.4.9.6",
     "pandas>=3.0.3",
-    "polars>=1.41.2",
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
-    "sparqlwrapper>=2.0.0",
 ]
 
 [build-system]

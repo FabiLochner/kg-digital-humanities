@@ -34,8 +34,7 @@ Usage examples (run from project root):
         --output-format gexf
 
 Output:
-    results/graphs/{input_stem}_kg_{edge-types}_{date}.html
-    results/graphs/{input_stem}_kg_{edge-types}_{date}_stats.json
+    results/graphs/{input_stem}_kg_{edge-types}.html
 """
 
 
@@ -53,6 +52,7 @@ from kg_dh.graph import (
 )
 # KG visualization
 from kg_dh.visualize import (
+    NODE_COLORS,
     build_pyvis,
     prepare_nx_for_pyvis,
     save_html_with_overlays,
@@ -137,7 +137,7 @@ def main() -> None:
         print("Building pyvis visualization...")
         G = prepare_nx_for_pyvis(G)
         net = build_pyvis(G)
-        save_html_with_overlays(net, out_dir / f"{out_stem}.html")
+        save_html_with_overlays(net, out_dir / f"{out_stem}.html", G, NODE_COLORS)
 
     elif args.output_format == "gexf":
         print("Exporting to Gephi GEXF...")

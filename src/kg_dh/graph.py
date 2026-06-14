@@ -210,7 +210,7 @@ def filter_graph(G: nx.DiGraph, min_degree: int = 1) -> nx.DiGraph:
         100 authors -> min_degree = 1
         1.000 authors -> min_degree = 2
         3.000 authors -> degree filtering alone will be insufficient; should be combined with
-                            edge-type filtering in scripts/build_kg() first
+                            edge-type filtering in build_graph() first
     
     """
     nodes_to_keep = [n for n, d in G.degree() if d >= min_degree]

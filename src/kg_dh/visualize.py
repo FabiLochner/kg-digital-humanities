@@ -177,6 +177,11 @@ def prepare_nx_for_pyvis(G: nx.DiGraph) -> nx.DiGraph:
 
         # truncate long labels for readability
         raw_label = data.get("label", node_id)
+
+        # store full label before truncating — used by stats panel
+        G.nodes[node_id]["full_label"] = raw_label
+
+        # truncated label shown inside the graph on the node itself
         G.nodes[node_id]["label"] = (
             raw_label[:MAX_LABEL_LENGTH] + "…"
             if len(raw_label) > MAX_LABEL_LENGTH
@@ -329,7 +334,7 @@ def compute_top_entities_per_type(
 
         results[edge_type] = [
             {
-                "label":     G.nodes[n].get("label", n),
+                "label":     G.nodes[n].get("full_label", G.nodes[n].get("label", n)),
                 "in_degree": G.in_degree(n),
             }
             for n in top_nodes
@@ -391,7 +396,7 @@ def build_stats_html(
         background:rgba(26,26,46,0.92);
         color:white; padding:12px 16px; border-radius:8px;
         font-family:Arial,sans-serif; font-size:13px;
-        z-index:1000; max-width:260px;
+        z-index:1000; max-width:320px;
         max-height:60vh; overflow-y:auto;
         border:1px solid rgba(255,255,255,0.15);
     ">
